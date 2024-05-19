@@ -1,4 +1,6 @@
 import "../css/table.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 const RandomQuestion = ({
   startNumber,
@@ -86,8 +88,11 @@ const RandomQuestion = ({
   }
   
   return (
+    <>
+    <button className="Back-Button" onClick={goBackToForm}><FontAwesomeIcon icon={faArrowLeft} /></button>
+    
     <div className="questions">
-      <button onClick={goBackToForm}>Back to Form</button>
+      
       <div className="container">
         <div className="table-container printStudentQuestions">
           <h2>Student Questions</h2>
@@ -137,6 +142,7 @@ const RandomQuestion = ({
         )}
       </div>
     </div>
+    </>
   );
 }
 

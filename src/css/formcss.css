@@ -2,8 +2,9 @@
 body {
     background: linear-gradient(to bottom, #00a8ff, #0097e6);
     font-family: Arial, sans-serif;
-    color: #fff;
+  
 }
+
 
 h2 {
     margin-top: 35px;
@@ -76,11 +77,12 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    max-height: 100vh;
     background: linear-gradient(to bottom, #00a8ff, #0097e6);
     font-family: Arial, sans-serif;
     color: #fff;
     text-align: center;
+    overflow: hidden;
   }
   
 /* ... Other styles ... */
@@ -114,7 +116,7 @@ input[type="submit"]:hover {
     transform: translate(-50%, -50%);
   }
   
-  
+ 
 @media (max-width: 600px) {
     form {
       max-width: 90%;

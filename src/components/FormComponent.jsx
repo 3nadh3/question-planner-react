@@ -66,6 +66,7 @@ function Form() {
           examQuestions={examQuestions}
           goBackToForm={goBackToForm} />
       ) : (
+        
         <div className='centered-div'>
           <div className='form'>
             <form onSubmit={handleSubmit}>
@@ -106,6 +107,7 @@ function Form() {
             </form>
           </div>
         </div>
+        
       )}
     </>
   )

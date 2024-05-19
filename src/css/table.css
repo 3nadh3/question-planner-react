@@ -5,6 +5,11 @@ body {
   margin: 0;
 }
 
+.Back-Button{
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+}
 /* Style the table */
 table {
   border-collapse: collapse;
@@ -69,14 +74,14 @@ tr:nth-child(even) {
 }
 
 .printQuestionsTableButton {
-  top: 1%;
+  top: 10px;
   left: 10px;
   position: absolute;
-  margin: 10px;
+  margin-left: 50px;
 }
 
 .printExamQuestionsTableButton {
-  top: 1%;
+  top: 10px;
   right: 20px;
   position: absolute;
   margin: 10px;
@@ -84,6 +89,7 @@ tr:nth-child(even) {
 
 .printQuestions {
   margin-top: 50px;
+  
 }
 
 .printExamQuestions {
